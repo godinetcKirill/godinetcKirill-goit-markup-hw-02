@@ -1,4 +1,44 @@
-/* цвет основного текста  */
-/* вторичный цвет текста */  
- /*белый цвет */ 
- /* акцент  */
+/* main page */
+/* #434455;цвет основного текста  */
+/* вторичный цвет текста #2E2F42;*/  
+ /*белый цвет  #FFFFFF;*/ 
+ /* акцент #4D5AE5; */
+ /* вторичный цвет фона #F4F4FD; */
+ /* вторичный цвет фона background: #2E2F42 */
+/* footer/hero #E7E9FC; */
+:root{
+    --primary-text-color:#434455;
+    
+    --title-text-color:#2E2F42;
+    --accent-color:#4D5AE5;
+}
+body {
+    background-color:#FFFFFF ;
+    color: var(--primary-text-color)
+}
+.logo:hover{
+   color: var(--accent-color)
+}
+.site-nav a {
+    color: var(--title-text-color)
+}
+.site-nav a:hover,
+.site-nav a:focus {
+color: greenyellow;
+}
+.contact-nav a:hover,
+.contact-nav a:focus{
+    color: greenyellow;
+}
+.section-title{
+    color: var(--title-text-color);
+}
+/* hero */
+.hero-title{
+    color: #9f2222;;
+}
+   /* footer */
+   .page-foot,.foot{
+    color:#E7E9FC ;
+    background-color: var(--title-text-color);
+   }
