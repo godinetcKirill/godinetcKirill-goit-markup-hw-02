@@ -19,6 +19,11 @@ body {
 .logo:hover{
    color: var(--accent-color)
 }
+/* hero */
+.hero-title {
+    color: #9f2222;
+    ;
+}
 .site-nav a {
     color: var(--title-text-color)
 }
@@ -33,9 +38,9 @@ color: greenyellow;
 .section-title{
     color: var(--title-text-color);
 }
-/* hero */
-.hero-title{
-    color: #9f2222;;
+.section-team,.team-title{
+    background-color:#F4F4FD ;
+    color: var(--title-text-color);
 }
    /* footer */
    .page-foot,.foot{
