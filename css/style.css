@@ -8,12 +8,12 @@
 /* footer/hero #E7E9FC; */
 :root{
     --primary-text-color:#434455;
-    
+    --primary-white-color:#FFFFFF;
     --title-text-color:#2E2F42;
     --accent-color:#4D5AE5;
 }
 body {
-    background-color:#FFFFFF ;
+    background-color: var(--primary-bg-color);
     color: var(--primary-text-color)
 }
 .logo:hover{
@@ -21,7 +21,7 @@ body {
 }
 /* hero */
 .hero-title {
-    color: #9f2222;
+    color: white;
     ;
 }
 .site-nav a {
@@ -31,9 +31,15 @@ body {
 .site-nav a:focus {
 color: greenyellow;
 }
+a.link.current { 
+    color: var(--accent-color);
+}
+a.link.current{
+    color: var(--accent-color);
+}
 .contact-nav a:hover,
 .contact-nav a:focus{
-    color: greenyellow;
+    color:var(--title-text-color);
 }
 .section-title{
     color: var(--title-text-color);
@@ -47,3 +53,36 @@ color: greenyellow;
     color:#E7E9FC ;
     background-color: var(--title-text-color);
    }
+/* button main page*/
+.button{
+
+}
+.hero-button{
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+.hero-button:hover,
+.hero-button:focus{
+    color: var(--accent-color);
+}
+
+
+/* portfolio button */
+.all-button  {
+color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+
+.all-button:hover,
+.all-button:focus{
+    color: var(--accent-color);
+}
+
+.site-button{
+    color: var(--accent-color);
+    background-color: #F4F4FD;
+}
+.site-button:focus,
+.site-button:hover{
+    color: blueviolet;
+}
