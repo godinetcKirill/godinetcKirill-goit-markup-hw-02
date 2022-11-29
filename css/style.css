@@ -15,12 +15,11 @@
     --portfolio-button:#F4F4FD;
 }
 body {
-   
+font-family: Roboto, serif;
     background-color: var(--primary-bg-color);
     color: var(--primary-text-color);
-    font-family: 'Roboto', serif;
-    letter-spacing:0.02em;
-    font-size: 16px;  
+    letter-spacing: 0.02em;
+     
 }
 
 
@@ -28,15 +27,17 @@ body {
 /* logo */
 .logo {
     color: var(--accent-color);
-    font-family: 'Raleway', sans-serif;
+    font-family: Raleway, sans-serif;
     font-size: 28px;
     line-height: 1.14;
     text-decoration: none;
+    text-transform: uppercase;
 }
 .logo-studio{
     color:var(--title-text-color);
 }
 .foot-logo{
+    text-transform: uppercase;
     color: var(--primary-white-color)
 }
 
@@ -54,7 +55,7 @@ body {
         font-size: 16px;
         line-height: 1.5;
         text-decoration: none;
-        text-transform: uppercase;
+
 }
 
 .site-nav a:hover,
@@ -139,6 +140,10 @@ text-align: center;
         letter-spacing: 0.02em;
     
 }
+.team-title{
+    font-size: 36px;
+
+}
 
 .tital-descr{
     color: var(--primary-text-color);
@@ -174,7 +179,7 @@ text-align: center;
 
   /* button main page*/
 .button {
-    font-family: 'Roboto' serif;
+    font-family: Roboto, serif;
     color: var(--primary-white-color);
     background-color: var(--button-bg-color);
 
@@ -184,6 +189,8 @@ text-align: center;
 }
  
 .hero-button{
+    font-family: Roboto, serif;
+    font-size: 16px;
     color: var(--primary-white-color);
     background-color: var(--accent-color);
     cursor: pointer;
@@ -201,12 +208,14 @@ text-align: center;
 
 /* portfolio button */
 
-    .main-button{
+    .main-buttons{
+        font-family: Roboto, serif;
         list-style: none;
     }
    .site-buttons{
-        font-family: 'Roboto' serif;
+        font-family: Roboto, serif;
         font-size: 16px;
+        line-height: 0.8;
         cursor: pointer;
         color: var(--accent-color);
         background-color: var(--portfolio-button);
